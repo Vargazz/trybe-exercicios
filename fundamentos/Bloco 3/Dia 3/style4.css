@@ -1,0 +1,39 @@
+.lista{
+    background-color: yellow;
+    font-size: 20px;
+}
+
+.lista:nth-child(even){
+    
+    color:green
+
+}
+
+.lista:nth-child(italic){
+
+    font-weight:bold;
+
+}
+
+.header{
+    color: red;
+}
+
+.header:nth-child(italic){
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+.java{
+    background-color: pink;
+}
+
+.tres{
+    color: blue;
+}
+
+.programa:hover{
+
+    font-weight:bold;
+
+}
