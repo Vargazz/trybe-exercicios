@@ -11,6 +11,8 @@ let media = soma / numbers.length
 
 console.log(media);
 
+//Exercicio 4 = Se o valor for maior ou menor que 20
+
 if( media > 20){
 
     console.log("Valor Maior que 20");
