@@ -1,0 +1,61 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  .container {
+    display: flex;
+  }
+  
+  p {
+    padding: 0 5px;
+    line-height: 1.5em;
+  }
+
+  #book{
+    font-size: 40px;
+    color: red;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: lightgrey;
+    }
+
+    .container{
+      margin: 0 10px;
+      flex-direction: column;
+    }
+
+  }
+
+  @media screen and (min-width:600px){
+    body{
+      background-color: lightcyan;
+    }
+    .container{
+      flex-wrap: wrap;
+    }
+  }
+
+  @media screen and (min-width:1000px) {
+    body{
+      background-color: lightcoral;
+    }
+
+    h1{
+      margin: 15px 10px;
+    }
+    .container{
+
+      flex-wrap: nowrap;
+    }
+
+    #book{
+      color: chartreuse;
+    }
+  }
+  
